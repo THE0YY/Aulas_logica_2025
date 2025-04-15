@@ -42,3 +42,15 @@ for(let[pos,frutas] of frutas.entries()){
 
 // separando os items em uma lista
 let produtos = 'celular, notebook, tv, tablet, headset'
+// o split divide a string e forma uma lista apartir do limitador no caso abaixo uma virgula
+let listaProdutos = produtos.split(',')
+for(let produtos of listaProdutos){
+    console.log(produtos);
+}
+
+// percorrendo uma string como uma lista (lista de caracteres)
+let palavra = 'SENAI'
+for(let letra of palavra){
+    console.log(letra);
+    
+}
